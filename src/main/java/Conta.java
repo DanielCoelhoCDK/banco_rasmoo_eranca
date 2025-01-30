@@ -1,4 +1,4 @@
-public class Conta {
+public  abstract class Conta {
 
     private int agencia;
     private int numero;
@@ -34,6 +34,8 @@ public class Conta {
             destino.depositar(valor);
         }
     };
+
+    public abstract void gerarExtrato();
 
             //Métodos Getters irão retornar valores
             //Métodos Setters irão atribuir valores
